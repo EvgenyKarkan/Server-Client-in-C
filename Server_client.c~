@@ -114,7 +114,7 @@ int main(int argc, char* argcv[])
 			error("Can't open secondary socket");
 		}
 
-		if (say(connect_d, " Knock Protocol Server\r\n Version 1.0\r\n Knock!\r\n> ") != -1) {
+		if (say(connect_d, "Knock Protocol Server\r\n Version 1.0\r\n Knock!\r\n> ") != -1) {
 			read_in(connect_d, buf, sizeof(buf));
 
 			if(strncasecmp("Who's there?", buf, 12)) {
