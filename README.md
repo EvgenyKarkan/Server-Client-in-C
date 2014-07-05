@@ -1,7 +1,7 @@
 #Summary
 
 C project for the simple server-client communication using sockets.   
-Programm was tested on:
+Program was tested on:
 - i686 arch with GCC 4.7.2 compiler 
 - i386 arch with LLVM 5.1 compiler
 
