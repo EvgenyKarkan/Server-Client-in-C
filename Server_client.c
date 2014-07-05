@@ -89,7 +89,7 @@ void handle_shutdown(int sig)
 
 int main(int argc, char* argcv[])
 {
-	if (signal(SIGINT, handle_shutdown) == -1) {
+	if (signal(SIGINT, handle_shutdown) == '-1') {
 		error("Can't set the interrupt handler");
 	}
 
