@@ -8,7 +8,7 @@ Program was tested on:
 #How to compile & use
 
 - Open Terminal & go sources directory by running `cd PATH_TO_SOURCES_ON_YOUR_MACHINE`
-- Type `gcc Server_client.c -o Server_client && ./Server_client` in Terminal to compile sources & run program.
+- Type `gcc Server_client.c -o Server_client && ./Server_client` in Terminal to compile sources, link & run program.
 - You will see: `Waiting for connection...` text, meaning that your simple server is ready for connection.
 - Open another yet Terminal window.
 - Type `telnet 127.0.0.1 2048` in new Terminal window. 2048 - is a just test port number used in program.
